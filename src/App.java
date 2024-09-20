@@ -28,6 +28,8 @@ public class App {
          * realizar operaciones básicas de manera creativa en programación.
          */
         int resultado = dataStructuresPrep.subtractAlgorithm(15, 5);
+        int multiplicacion = dataStructuresPrep.multiplyAlgorithm(5, 5);
+        int div= dataStructuresPrep.divideWAlgorithm(15, 3);
 
         /*
          * Imprimir el resultado de la operación.
@@ -44,6 +46,13 @@ public class App {
          * parte de mensajes de salida o en lógicas de decisión más complejas.
          */
         System.out.println("El resultado de subtractAlgorithm  es: " + resultado);
+        System.out.println("El resultado de multiplyAlgorithm  es: " + multiplicacion);
+        System.out.println("El resultado de divideWAlgorithm  es: " + div);
+        
+
+
+
+        
 
     }
 }
